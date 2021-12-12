@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NM Architect</title>
+<style type="text/css">
+*{
+margin:0;
+padding:5px;
+font-family:times;
+}
+#dropdown{
+position:relative;
+dislay:inline-block;
+text-align:center;
+}
+#dropdown-content{
+list-style-type:none;
+height:200px;
+overflow:auto;
+width:300px;
+letter-spacing:5px;
+border-radius:10px;
+background-color:silver;
+display:none;
+position:absolute;
+z-index:-1;
+}
+li{
+border-bottom:1px solid black;
+}
+li:hover{
+background-color:grey;
+border-radius:20px;
+}
+#dropdown:hover #dropdown-content{
+display:block;
+}
+nav{
+position:sticky;
+top:0;
+background-color:grey;
+}
+#profiling{
+position:relative;
+display:block;
+height:100px;
+border:1px solid black;
+}
+#head{
+text-align:center;
+letter-spacing:2px;
+}
+#profile{
+margin-left:auto;
+margin-right:auto;
+display:block;
+border-radius:100%;
+width:50px;
+height:50px;
+}
+form{
+background:linear-gradient(black,white,red,white,green);
+border-radius:20px;
+}
+input{
+margin:20px;
+border-radius:20px;
+width:200px;
+height:25px;
+margin-left:auto;
+margin-right:auto;
+display:block;
+border:none;
+}
+input[type="button"]{
+color:green;
+border-style:none;
+width:150px;
+}
+a{
+text-decoration:none;
+color:black;
+
+}
+#info{
+background-color:lightgrey;
+margin:50px;
+text-align:center;
+}
+img{
+width:100%;
+height:auto;
+border-radius:20px;
+}
+#name{
+color:lightgrey;
+}
+#contact{
+border:1px solid black;
+margin-top:20px;
+border-radius:20px;
+}
+#homepage{
+position:fixed;
+bottom:0;
+width:auto;
+border-radius:100%;
+}
+.call{
+border-style:none;
+border-radius:20px;
+width:100%;
+height:50px;
+}
+
+</style>
+</head>
+<body>
+<button id="homepage"><a href="architect.html">Home</a></button>
+  <div id="profiling">
+  <p id="head"><b>NM</b> Architects</p>
+  <img src="kevo.jpg" id="profile">
+
+  </div>
+  <nav>
+  <div id="dropdown">
+  <span id="menu">Menu</span>
+  <div id="dropdown-content">
+  <li>Bungalow</li>
+  <li>Two storey</li>
+  <li>Simple</li>
+  <li>Interior</li>
+  <li>Phillipine</li>
+  <li>Exterior</li>
+  <li>Single storey</li>
+  <li>Floor plan</li>
+  <li>Luxury</li>
+  <li>Front</li>
+  <li>Minimalist</li>
+  <li>Low cost</li>
+  <li>Mine craft</li>
+  <li>Beautiful</li>
+  <li>Glass</li>
+  <li>Contemporary</li>
+  <li>3-bedroom</li>
+  <li>Flat roof</li>
+  <li>Dreamhouse</li>
+  <li>Kerala</li>
+  <li>Modern style</li>
+  <li>100sqm</li>
+  <li>Double storey</li>
+  <li>Residential</li>
+  <li>Kitchen</li>
+  <li>Box type</li>
+  <li>Ultra modern</li>
+  <li>Living room</li>
+  </div>
+  </div>
+  </nav>
+  <h3><center>contact</center></h3>
+  
+  <div id="contact">
+   <img src="member.jpg">
+   <p id="name">Ndanu Mutua</p>
+   <p id="name">CEO</p>
+   <p>For the bed and the entrance to the entrance.</p>
+   <p>Suspendisse sodales pellentesque elementum.</p>
+   
+   <button class="call">CALL</button>
+  </div>
+  
+<div id="contact">
+ <img src="cam.jpg">
+ <p id="name">Kelvin Mutinda</p>
+ <p id="name">Director</p>
+ <p>For the bed and the entrance to the entrance.</p>
+ <p>Suspendisse sodales pellentesque elementum.</p>
+ 
+ <button class="call">CALL</button>
+</div>
+  <p>You can get in touch with us through the following credentials</p>
+  <form method="$_GET">
+  <input type="text" value="Username" placeholder="Username..." Required>
+  <input type="number" value="phone no" placeholder="Mobile no...">
+  <input type="email" name="mail" placeholder="roche682@gmail.com..." required><br>
+  <input type="button" value="SUBMIT">
+  </form>
+  <div id="info">
+  <a href="tel:+254112949305" >Contact us</a>
+  <br>
+   <a href="mailto:kelvinmutinda218@gmail.com" >Email us</a>
+   <br>
+    <a href="www.facebook.com	" >facebook</a>
+    <br>
+     <a href="www.instagram.com" >Instagram</a>
+ </div>
+</body>
+</html>
